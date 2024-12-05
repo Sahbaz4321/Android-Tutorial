@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:title="Profile"
+        app:showAsAction="never"
+        android:id="@+id/profile"
+        >
+
+<menu>
+
+<item
+    android:title="Theme"
+    app:showAsAction="never"
+    android:id="@+id/theme"
+
+    >
+    <menu>
+
+
+    <item
+        android:title="Black"
+        app:showAsAction="never"
+        android:id="@+id/black"
+
+        />
+
+        <item
+            android:title="white"
+            app:showAsAction="never"
+            android:id="@+id/white"
+
+            />
+    </menu>
+
+</item>
+
+    <item
+        android:title="Password"
+        app:showAsAction="never"
+        android:id="@+id/password_change"
+
+        />
+</menu>
+
+    </item>
+
+
+
+</menu>

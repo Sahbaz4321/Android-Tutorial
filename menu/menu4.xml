@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/popitem"
+        android:title="Edit"
+        app:showAsAction="always"
+        android:icon="@drawable/sahbaz"
+
+        />
+
+    <item
+        android:id="@+id/deletepop"
+        android:title="delete"
+        app:showAsAction="always"
+
+
+        />
+    <item
+        android:id="@+id/sharepop"
+        android:title="share"
+        app:showAsAction="always"
+
+
+        />
+
+
+</menu>

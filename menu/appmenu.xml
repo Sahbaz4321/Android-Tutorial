@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/search"
+        android:title="Search"
+        android:icon="@drawable/search_24"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/callSearch"
+        android:title="Google Seacrh"
+        android:icon="@drawable/baseline_add_ic_call_24"
+        app:showAsAction="always"
+
+        />
+    <item
+        android:id="@+id/homePage"
+        android:title="Home"
+        android:icon="@drawable/baseline_add_ic_call_24"
+        app:showAsAction="never">
+
+        <menu>
+            <item
+            android:id="@+id/attendance"
+            android:title="attendance"
+                app:showAsAction="always"
+            />
+
+        </menu>
+
+
+    </item>
+
+
+
+    <item
+        android:id="@+id/aboutUs"
+        android:title="About us"
+        android:icon="@drawable/baseline_add_ic_call_24"
+        app:showAsAction="never"/>
+
+
+
+
+
+
+
+
+    <item
+        android:id="@+id/contactUs"
+        android:title="Contact us"
+        android:icon="@drawable/baseline_add_ic_call_24"
+        app:showAsAction="never"
+
+        />
+
+    <item
+        android:id="@+id/dashboard"
+        android:title="Dashboard"
+        android:icon="@drawable/baseline_add_ic_call_24"
+        app:showAsAction="never"
+
+        />
+
+
+</menu>
