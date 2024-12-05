@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Category_project">
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="2"
+
+        android:rowCount="4"
+        android:layout_marginLeft="35dp"
+        android:id="@+id/grid_system"
+
+
+
+        >
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+
+            android:layout_height="150dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="12dp"
+            android:layout_row="0"
+            android:layout_margin="12dp"
+            android:layout_column="0"
+
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+
+                >
+
+
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/shahrukhan"
+
+                    android:layout_margin="10sp"
+                    android:scaleType="fitCenter"
+                    android:layout_gravity="center_horizontal"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Men"
+                    android:textSize="20sp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+
+
+                    />
+
+
+            </LinearLayout>
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <!--        card 2-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="12dp"
+            android:layout_row="0"
+            android:layout_margin="12dp"
+            android:layout_column="1"
+            android:id="@+id/women"
+
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+
+                >
+
+
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/katreena"
+                    android:layout_margin="10sp"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="center_horizontal"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Women"
+                    android:textSize="20sp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+
+
+                    />
+
+
+            </LinearLayout>
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <!--        card 3-->
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="12dp"
+            android:layout_row="1"
+            android:layout_margin="12dp"
+            android:layout_column="0"
+
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+
+                >
+
+
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/siddarth"
+                    android:layout_margin="10sp"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="center_horizontal"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kids"
+                    android:textSize="20sp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+
+
+                    />
+
+
+            </LinearLayout>
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <!--        card 4-->
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="12dp"
+            android:layout_row="1"
+            android:layout_margin="12dp"
+            android:layout_column="1"
+
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+
+                >
+
+
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/winter1"
+                    android:layout_margin="10sp"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="center_horizontal"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Winter Wear"
+                    android:textSize="20sp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+
+
+                    />
+
+
+            </LinearLayout>
+
+
+
+
+        </androidx.cardview.widget.CardView>
+        <!--card 5-->
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="12dp"
+            android:layout_row="2"
+            android:layout_margin="12dp"
+            android:layout_column="0"
+
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+
+                >
+
+
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/kurta1"
+                    android:layout_margin="10sp"
+                    android:scaleType="fitCenter"
+                    android:layout_gravity="center_horizontal"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kurta"
+                    android:textSize="20sp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+
+
+                    />
+
+
+            </LinearLayout>
+
+
+
+
+        </androidx.cardview.widget.CardView>
+        <!--card 6-->
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="12dp"
+            android:layout_row="2"
+            android:layout_margin="12dp"
+            android:layout_column="1"
+
+
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+
+                >
+
+
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/coat1"
+                    android:layout_margin="10sp"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="center_horizontal"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Coat paint"
+                    android:textSize="20sp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+
+
+                    />
+
+
+            </LinearLayout>
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+<!--        card 7-->
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+
+            android:layout_height="150dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="12dp"
+            android:layout_row="3"
+            android:layout_margin="12dp"
+            android:layout_column="0"
+
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+
+                >
+
+
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/pakistani1"
+                    android:layout_margin="10sp"
+                    android:scaleType="fitCenter"
+                    android:layout_gravity="center_horizontal"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pakistani suit"
+                    android:textSize="20sp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+
+
+                    />
+
+
+            </LinearLayout>
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+<!--        card 8-->
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+
+            android:layout_height="150dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="12dp"
+            android:layout_row="3"
+            android:layout_margin="12dp"
+            android:layout_column="1"
+
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+
+                >
+
+
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/afghani"
+                    android:layout_margin="10sp"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="center_horizontal"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Afghani set"
+                    android:textSize="20sp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+
+
+                    />
+
+
+            </LinearLayout>
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </GridLayout>
+
+
+</LinearLayout>

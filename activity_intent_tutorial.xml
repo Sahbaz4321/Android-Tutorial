@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".intentTutorial">
+
+
+    <Button
+        android:layout_width="300sp"
+        android:layout_height="100sp"
+        android:text="implicit"
+        android:textSize="30sp"
+        android:id="@+id/implicit_button"
+        android:background="@drawable/custome_roundview"
+        android:layout_marginTop="40sp"
+
+        />
+
+   <CheckBox
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="i login this activity"
+       android:id="@+id/checkbox_1"
+       android:textSize="30sp"
+       />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:text=""
+    android:textSize="30sp"
+    android:background="@drawable/custome_roundview"
+    android:padding="10sp"
+    android:id="@+id/textfe"
+    />
+   <RadioGroup
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/radio_grp1"
+       >
+
+
+       <RadioButton
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="English"
+           android:textSize="30sp"
+           android:id="@+id/english"
+           />
+
+
+       <RadioButton
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Hindi"
+           android:textSize="30sp"
+           android:id="@+id/hindi"
+
+           />
+
+       <Spinner
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:tooltipText="item"
+           android:id="@+id/spinner_1"
+           />
+   </RadioGroup>
+"
+</LinearLayout>

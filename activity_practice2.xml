@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Practice2">
+
+
+
+
+    <ImageView
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:background="@drawable/sahbaz"
+       android:layout_marginTop="60sp"
+        android:id="@+id/image1"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hi hello how are you"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="30sp"
+        android:background="@drawable/custome_roundview"
+        android:padding="10sp"
+        android:id="@+id/textplay1"
+
+        />
+
+    <Button
+        android:layout_width="300sp"
+        android:layout_height="100sp"
+        android:background="@drawable/custome_roundview"
+        android:text="button"
+        android:id="@+id/btnplay"
+        android:textSize="30sp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Hi i am present"
+        android:background="@drawable/custome_roundview"
+        android:padding="10sp"
+        android:id="@+id/edit_dynamic"
+
+        />
+
+
+</LinearLayout>
