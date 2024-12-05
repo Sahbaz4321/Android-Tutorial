@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="welcome">भारत में आपका स्वागत है</string>
+    <string name="change">बदलें</string>
+    <string name="login">लॉगिन</string>
+    <string name="signUp">साइनअप</string>
+    <string name="Welcome">मेरे ऐप में आपका स्वागत है</string>
+    <string name="reset">लैंग रीसेट करें</string>
+    <string name="Hello">हाय मैं एक अच्छा लड़का हूँ</string>
+
+<string name="world"> हैलो वर्ल्ड</string>
+</resources>
