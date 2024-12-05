@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Intent1">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HI i am sahbaz"
+        android:textSize="30sp"
+        android:id="@+id/intent_text"
+        android:textColor="@color/black"
+        />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HI i am sahbaz"
+        android:textSize="30sp"
+        android:id="@+id/intent_code"
+        android:textColor="@color/black"
+        />
+
+
+    <Button
+        android:layout_width="300sp"
+        android:layout_height="100sp"
+        android:background="@drawable/custome_roundview"
+        android:text="Button"
+        android:textSize="30sp"
+        android:layout_marginTop="30sp"
+        android:id="@+id/intent_button"
+
+        />
+
+</LinearLayout>

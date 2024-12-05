@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/contact_us"
+    tools:context=".SignUp_page">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30sp"
+
+        >
+
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint=" First Name"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            android:textColorHint="@color/black"
+
+
+            />
+
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint=" Last Name"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            android:textColorHint="@color/black"
+
+
+            />
+    </LinearLayout>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:textSize="30sp"
+            android:textColorHint="@color/black"
+            android:layout_marginTop="10sp"
+
+            />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="30sp"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="10sp"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:textSize="30sp"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="10sp"/>
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Gender"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:orientation="horizontal">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+
+        >
+
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Male"
+            android:textSize="30sp"
+
+            />
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="female"
+            android:layout_marginLeft="-30dp"
+            android:textSize="30sp"
+
+            />
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Other"
+
+            android:textSize="30sp"
+
+            />
+
+    </RadioGroup>
+    </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="Hobbies"
+            android:layout_marginTop="10sp"
+            android:textColor='@color/black'
+            />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+
+    <CheckBox
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Cricket"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        />
+
+    <CheckBox
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Music"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        />
+
+    <CheckBox
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Reading"
+        android:textSize="29sp"
+        android:textColor="@color/black"
+        />
+
+
+
+
+</LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Which city you live"
+        android:textSize="30sp"
+        android:layout_marginTop="10sp"
+        android:textColor="@color/black"
+        />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:id="@+id/city"
+
+
+        />
+
+    <Button
+        android:layout_width="200sp"
+        android:layout_height="100sp"
+        android:background="@drawable/custome_roundview"
+        android:textSize="30sp"
+        android:text="Sign Up"
+        android:id="@+id/sign_up"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:backgroundTint="@color/purple_200"
+        android:layout_marginTop="30sp"
+
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Practice_class">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:hint="Enter name"
+            android:id="@+id/enter_name"
+            android:textSize="30sp"
+
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:hint="Enter Number"
+            android:id="@+id/enter_number"
+            android:textSize="30sp"
+
+            />
+
+
+        <Button
+            android:layout_width="300sp"
+            android:layout_height="100sp"
+            android:textColor="@color/black"
+            android:text="call"
+            android:id="@+id/call_btn"
+            android:background="@drawable/custome_roundview"
+            android:layout_margin="30sp"
+            />
+
+
+    </LinearLayout>
+
+
+
+<!--    design a activity during relative layout  where provide the appropriate component to read the name and mobile number from the user
+provide a call button when preesed open the dialer to dial the entered number using the implicit intent
+and show the name in toast calling xyz
+-->
+</RelativeLayout>

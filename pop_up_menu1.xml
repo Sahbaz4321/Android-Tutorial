@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PopUpMenu1">
+
+    <Button
+        android:layout_width="300sp"
+
+        android:layout_height="100sp"
+        android:background="@drawable/custome_roundview"
+        android:textSize="30sp"
+        android:text="PopUp menu"
+        android:id="@+id/popup_btn"
+        android:layout_marginTop="30sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hi I am Sahbaz"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:background="@drawable/custome_roundview"
+        android:padding="10sp"
+        android:layout_marginTop="10sp"
+        android:id="@+id/popup_text"
+        />
+
+</LinearLayout>

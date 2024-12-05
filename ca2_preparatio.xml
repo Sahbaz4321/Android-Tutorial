@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Ca2Preparation">
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Snackbar"
+        android:textSize="30sp"
+        android:textColor="@color/teal_700"
+        android:background="@drawable/custome_roundview"
+        android:layout_marginTop="50sp"
+        android:id="@+id/snackbar1"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/world"
+        android:textSize="30sp"
+        android:id="@+id/world"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="language change"
+        android:textSize="30sp"
+        android:id="@+id/language_change"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="language reset"
+        android:textSize="30sp"
+        android:id="@+id/reset_lang"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="url"
+        android:textSize="30sp"
+        android:id="@+id/implicit1"
+
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dial"
+        android:textSize="30sp"
+        android:id="@+id/explicit1"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="msg"
+        android:textSize="30sp"
+        android:id="@+id/msg"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="map"
+        android:textSize="30sp"
+        android:id="@+id/map_l"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="explicit"
+        android:textSize="30sp"
+        android:id="@+id/exp"
+
+        />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/list1"
+/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_12"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="log"
+        android:id="@+id/logcat"
+
+        />
+
+</LinearLayout>

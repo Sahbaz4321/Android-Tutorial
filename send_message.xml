@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/contact_us"
+    tools:context=".SendMessage">
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Message Send"
+        android:textSize="30sp"
+        android:textColor="@color/purple_700"
+        android:gravity="center"
+        android:layout_marginTop="250sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="We will contact within two days"
+        android:textSize="28sp"
+        android:textColor="@color/purple_700"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="10sp"
+
+        />
+</LinearLayout>

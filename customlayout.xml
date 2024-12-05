@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hi this is custom"
+        android:id="@+id/custom_alert_title"
+        android:textSize="30sp"
+        android:layout_marginTop="40sp"
+        android:background="@drawable/custome_roundview"
+        android:padding="10sp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hi i am sahbaz"
+        android:layout_marginTop="30sp"
+        android:id="@+id/custom_alert_msg"
+        android:textSize="30sp"
+        android:background="@drawable/custome_roundview"
+        android:padding="10sp"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+    <Button
+        android:layout_width="150sp"
+        android:layout_height="100sp"
+        android:background="@drawable/custome_roundview"
+        android:text="ok"
+        android:layout_marginTop="30sp"
+        android:id="@+id/ok_btn"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:layout_width="150sp"
+        android:layout_height="100sp"
+        android:background="@drawable/custome_roundview"
+        android:text="cancel"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="30sp"
+        android:id="@+id/cancel_btn_custome"
+        android:textSize="30sp"
+        />
+
+    </LinearLayout>
+
+</LinearLayout>

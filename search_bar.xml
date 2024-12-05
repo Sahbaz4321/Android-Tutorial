@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".search_bar">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="User detail"
+        android:id="@+id/text"
+        >
+
+    </TextView>
+
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter user name"
+        android:textSize="30sp"
+        android:id="@+id/users"
+
+        />
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:id="@+id/radiogrp"
+
+        >
+
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reading"
+            android:id="@+id/reading"
+            android:textSize="30sp"
+
+            />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Playing"
+            android:id="@+id/plying"
+            android:textSize="30sp"
+
+            />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sleeping"
+            android:textSize="30sp"
+
+            android:id="@+id/sleeping"
+            />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Travelling"
+            android:textSize="30sp"
+
+            android:id="@+id/travel"
+            />
+
+
+
+
+
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Which city you are lived"
+        android:textSize="30sp"
+        android:id="@+id/lived"
+        />
+
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agra"
+        android:textSize="30sp"
+        android:id="@+id/agra"
+
+        />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aligarh"
+        android:textSize="30sp"
+        android:id="@+id/aligarh"
+
+        /> <CheckBox
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Jammu  kashmir"
+    android:textSize="30sp"
+    android:id="@+id/kashmir"
+
+    /> <CheckBox
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Noida"
+    android:textSize="30sp"
+    android:id="@+id/noida"
+
+    />
+
+<Spinner
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:tooltipText="item"
+    android:id="@+id/spinner"
+
+    />
+
+
+
+</LinearLayout>

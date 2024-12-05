@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".searchBar_listview">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <SearchView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40sp"
+            android:queryHint="Search..."
+            android:background="@drawable/custome_roundview"
+            android:iconifiedByDefault="false"
+
+            android:queryBackground="@android:color/transparent"
+            android:id="@+id/searchview"
+
+            />
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="85sp"
+            android:id="@+id/listview_search"
+            android:visibility="visible"
+
+            />
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

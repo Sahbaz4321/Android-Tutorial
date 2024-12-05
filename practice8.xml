@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".Practice8">
+
+
+    <LinearLayout
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listLanguage"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="hi hello how are you"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:id="@+id/text_change"
+
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:id="@+id/text_edit"
+
+            />
+
+
+        <Button
+            android:layout_width="200sp"
+            android:layout_height="100sp"
+            android:text="change lang"
+            android:textColor="@color/black"
+            android:background="@drawable/custome_roundview"
+            android:layout_marginTop="30sp"
+            android:layout_marginLeft="20sp"
+            android:textSize="20sp"
+            android:id="@+id/change_language"
+            />
+    </LinearLayout>
+
+</LinearLayout>

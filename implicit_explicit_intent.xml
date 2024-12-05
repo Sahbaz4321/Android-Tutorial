@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".implicit_Explicit_Intent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:orientation="horizontal"
+        >
+
+
+    <Button
+        android:layout_width="200sp"
+        android:layout_height="80sp"
+        android:text="implicit intent"
+        android:textSize="20sp"
+        android:textColor="@color/teal_700"
+        android:background="@drawable/custome_roundview"
+        android:id="@+id/implicit_intent"
+        />
+
+    <Button
+        android:layout_width="200sp"
+        android:layout_height="80sp"
+        android:text="explicit intent"
+        android:textSize="20sp"
+        android:layout_marginLeft="3sp"
+        android:textColor="@color/teal_700"
+        android:background="@drawable/custome_roundview"
+        android:id="@+id/explicit_intent"
+        />
+
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="200sp"
+        android:layout_height="100sp"
+        android:text="Dialer"
+        android:textSize="30sp"
+        android:background="@drawable/custome_roundview"
+        android:textColor="@color/teal_700"
+        android:layout_marginTop="30sp"
+        android:id="@+id/dial"
+        />
+
+
+    <Button
+        android:layout_width="200sp"
+        android:layout_height="100sp"
+        android:text="msg"
+        android:textSize="30sp"
+        android:background="@drawable/custome_roundview"
+        android:textColor="@color/teal_700"
+        android:layout_marginTop="20sp"
+        android:id="@+id/message_btn"
+        />
+
+
+    <Button
+        android:layout_width="200sp"
+        android:layout_height="100sp"
+        android:text="map"
+        android:textSize="30sp"
+        android:background="@drawable/custome_roundview"
+        android:textColor="@color/teal_700"
+        android:layout_marginTop="20sp"
+        android:id="@+id/map"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConstraintLaout1">
+
+    <Button
+        android:layout_width="300sp"
+        android:layout_height="100sp"
+        android:text="btn1"
+        android:id="@+id/bnt1_cons"
+        android:background="@drawable/custome_roundview"
+        android:layout_marginTop="30sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <Button
+        android:layout_width="300sp"
+        android:layout_height="100sp"
+        android:text="btn1"
+        android:id="@+id/bnt2_cons"
+        android:background="@drawable/custome_roundview"
+        android:layout_marginTop="30sp"
+       app:layout_constraintTop_toBottomOf="@id/bnt1_cons"
+        app:layout_constraintStart_toStartOf="parent"
+
+
+
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hi hello"
+        android:textSize="30sp"
+        app:layout_constraintTop_toBottomOf="@id/bnt2_cons"
+        android:gravity="center"
+        android:id="@+id/text_cons"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+
+        />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/sahbaz"
+        app:layout_constraintTop_toBottomOf="@id/text_cons"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintDimensionRatio="16:9"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

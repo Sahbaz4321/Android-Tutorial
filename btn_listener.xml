@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".btnListener">
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="btn"
+        android:id="@+id/button"
+        android:textSize="30sp"
+        />
+    <CheckBox
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="you are agree"
+        android:textSize="30sp"
+        android:id="@+id/check_box"
+        />
+    <ToggleButton
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        />
+    <TimePicker
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:timePickerMode="clock"
+
+        />
+
+    <TimePicker
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:timePickerMode="spinner"
+
+        />
+
+</LinearLayout>

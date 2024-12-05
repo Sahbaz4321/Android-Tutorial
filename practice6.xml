@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Practice6">
+
+    <Button
+        android:layout_width="300sp"
+        android:layout_height="100sp"
+        android:id="@+id/btn_snack"
+        android:background="@drawable/custome_roundview"
+        android:layout_marginTop="40sp"
+        android:text="Snackbar"
+
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

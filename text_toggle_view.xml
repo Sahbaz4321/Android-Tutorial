@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".textToggleVIew">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:textSize="30sp"
+        android:id="@+id/save"
+        />
+    <Button
+        android:layout_width="150sp"
+        android:layout_height="100sp"
+        android:text="open"
+        android:textSize="30sp"
+        android:id="@+id/click1"
+        android:onClick="clickable"
+        />
+
+    <ImageButton
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:id="@+id/img"
+        android:scaleType="center"
+        style=""
+        android:src="@drawable/sahbaz"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textname"
+
+        />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/check"
+        android:text="Auto Save"
+        android:textSize="30sp"
+        />
+
+
+  <RadioGroup
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/radio_grp"
+
+      >
+
+
+
+      <RadioButton
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="option 1"
+          android:textSize="30sp"
+          android:id="@+id/option1"
+/>
+
+
+      <RadioButton
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="30sp"
+          android:id="@+id/option2"
+          android:text="option 2"
+          />
+
+  </RadioGroup>
+    <ToggleButton
+        android:layout_width="200sp"
+        android:layout_height="100sp"
+        android:id="@+id/toggle"
+        />
+
+</LinearLayout>

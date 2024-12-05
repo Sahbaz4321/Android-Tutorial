@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PopPopMenu">
+
+    <Button
+        android:layout_width="300sp"
+        android:layout_height="100sp"
+        android:layout_marginTop="40sp"
+        android:text="PopUp Menu"
+        android:background="@drawable/custome_roundview"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:id="@+id/pop1"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:id="@+id/poptext"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:id="@+id/popedit"
+
+        />
+
+    <Button
+        android:layout_width="300sp"
+        android:layout_height="100sp"
+        android:layout_marginTop="40sp"
+        android:text="submit"
+        android:background="@drawable/custome_roundview"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:id="@+id/popsubmit"
+        android:layout_gravity="center"
+        />
+
+
+</LinearLayout>
